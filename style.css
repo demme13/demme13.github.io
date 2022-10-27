@@ -1,0 +1,22 @@
+a {
+    color: red;
+    display: block;
+  }
+  html{
+background-image: url("black-background-1436912499vPS.png");
+background-size: cover;}
+body{display: flex;
+flex-direction: column ;
+align-items: center;
+color: white;
+}
+
+p{font-size: 70pt;background-color: black;}
+.button{position: fixed; top : 2px;right: 2px;width: 250px;}
+.rotate {animation-duration: 3s;
+    animation-name: rotate;
+    animation-iteration-count: 1;
+    animation-direction: alternate;}
+@keyframes rotate {from{transform: rotate(0);}to{transform: rotate(360deg);}}
+.small{font-size: 20pt;}
+h1{background-color: black;}
